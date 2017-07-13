@@ -10,6 +10,8 @@ Also The training accuracy is __100%__ using Linear SVM at C = 1.0
 
 The number of clusters created are 400 i.e. the number of significant features.
 
+Data augmentation can further increase accuracy, but has not been implemented because Kmeans Clustering hangs due to increased dataset.
+
 The testing performed is on the query set on full images.
 
 Run `python extract.py` to extract features <br/>
