@@ -23,8 +23,8 @@ map_dict = {
 clf = joblib.load("model400.pkl")
 km = joblib.load("cluster400.pkl")
 
-test = "flickr_logos_27_datase/flickr_logos_27_dataset_query_set_annotation.txt"
-imgpath = "flickr_logos_27_datase/flickr_logos_27_dataset_images/"
+test = "flickr_logos_27_dataset/flickr_logos_27_dataset_query_set_annotation.txt"
+imgpath = "flickr_logos_27_dataset/flickr_logos_27_dataset_images/"
 accuracy = []
 
 f = open(test)
